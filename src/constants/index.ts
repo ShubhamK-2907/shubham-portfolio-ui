@@ -74,21 +74,20 @@ const technologies = [
 
 const experiences = [
     {
-        title: "Founding Member",
-        company_name: "Stealth Startup",
+        title: "Software Engineer",
+        company_name: "Udooh",
         icon: stealth,
         iconBg: "#E6DEDD",
         date: "May 2024 - Present...",
         points: [
             "Leading the platform UI development and MVP definition to acquire the first set of paying customers",
-            "Built a dynamic, interactive website landing page, significantly boosting user engagement & increasing traffic",
-            "Successfully configured and optimized the project environment, seamlessly integrating essential tools and libraries to\n" +
-            "enhance performance and establish an efficient development workflow",
-            "Built a Serverless Meeting Scheduler using Google Cloud Functions, allowing users to share a scheduling link for seamless\n" +
-            "appointment booking, automating meeting setup and syncing entries with integrated CRM",
+            "Built a dynamic, responsive discovery website paired with ZCal meeting Scheduler and GCP serverless Cloud Run Function implementing python functions framework to capture user data\n",
+            "Developed the Admin UI for the sales and monitoring team, enabling them to add screen entries, create merchant and brand users, review published promo content, monitor individual merchant and brand campaigns and active/inactive screens list\n",
+            "Designed and implemented the Experience module for MSME merchants, integrating physical-to-digital customer journeys (QR, video, gamification) with advanced tracking and customer unification systems, driving a 40% increase in customer signups\n",
+            "Built the Channels UI to expedite the requirement for a virtual channel embed into merchants’ browsers/signage to display their content playlists. Implemented Firebase FCM for real time playlist updation\n",
             "Developed the Admin UI for the sales and monitoring team, enabling them to add screen entries, create merchant and brand\n" +
             "users, and review published MP4 content",
-            "Containerized the ReactJS platform UI on Docker and setup the build, test & deployment pipelines on Railway"
+            "Containerized the ReactJS platform UI on Docker and deployed Dev and Production Environments on Railway with Autoscaling, featuring less than 1% uptime loss"
 
         ],
     },
@@ -99,11 +98,11 @@ const experiences = [
         iconBg: "#E6DEDD",
         date: "JUL 2022 - MAY 2024",
         points: [
-            "Responsible for building a responsive initial version of Lifesight UI modules, mainly focused around the \n" +
-            " customer engagement and measurement.",
-            "Engineered E2E front-end for MMM and Causal Inference for better data driven decision making",
-            "Developed a key frontend feature necessary for the product growth and operations team, enabling platform analytics solutions like SessionStack, Heap, Segment to gain insights and reduce error inspection time",
-            "Enabled WhatsApp and Email campaign channel for the marketing automation suite",
+            "Engineered features, performed bug fixes, and collaboratively reviewed teammates’ code for customer engagement module, incorporating Unlayer for template building (Whatsapp and Email campaign orchestration) and creating interactive forms, leading to a gain of 1000+ upvotes and 700 customer signups on ProductHunt \n",
+            "Enabled platform analytics solutions [SessionStack, Heap, Segment] for the growth and prod-ops team",
+            "Integrated custom JS SDK in partner shopify stores’ websites for event tracking, and enhanced customer profiling",
+            "Ownership of major measurement feature-sets: Attribution, MMM, Scenario Planning & Forecasting, Incrementality with Causal Inference for optimized marketing strategies",
+            "Built easy-to-use components involving migration from reCharts and amCharts to FusionCharts, setting up a custom theme manager aligning the maps and charts with our base UI",
         ],
     },
     {

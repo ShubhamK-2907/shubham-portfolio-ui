@@ -420,7 +420,7 @@ const Hero = () => {
                         animate="visible"
                         variants={fadeIn}
                     >
-                        Full Stack Developer | Building Platforms and Products
+                        Software Engineer | Building Platforms and Products
                         <br className='sm:block hidden' />
                     </motion.p>
                 </div>
